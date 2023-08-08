@@ -1,0 +1,50 @@
+/* uppercase all the letters,
+without touching the html ! (note: you weren't taught how to do this, you will need to flex your googling skills)
+set the font-family to be 'monospace'
+center align the text set the font weight to 100 make the text size 40px set spacing between letters to 20px add a wavy plum underline (plum is the color) - I can't test this, but make sure it looks like the image! */
+
+h1 {
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: plum wavy underline;
+}
+
+h2 {
+    color: magenta;
+    font-weight: 700;
+    text-decoration: cyan wavy underline;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+    letter-spacing: 12px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Verdana;
+}
+
+p {
+    color: white;
+    background-color: rgb(177, 205, 216);
+    text-align: right;
+    line-height: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: red;
+    text-decoration: line-through;
+}
+
+body {
+    background-color: gray;
+}
